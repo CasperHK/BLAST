@@ -1,0 +1,22 @@
+{
+  "name": "blast-frontend",
+  "private": true,
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.14.1",
+    "@solidjs/start": "^1.0.6",
+    "solid-js": "^1.8.17",
+    "vinxi": "^0.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

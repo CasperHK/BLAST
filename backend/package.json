@@ -1,0 +1,14 @@
+{
+  "name": "blast-backend",
+  "private": true,
+  "scripts": {
+    "gen:types": "pg-to-ts generate -c $DATABASE_URL -o db.d.ts"
+  },
+  "dependencies": {
+    "encore.dev": "^1.46.0"
+  },
+  "devDependencies": {
+    "pg-to-ts": "^4.1.1",
+    "typescript": "^5.4.5"
+  }
+}
